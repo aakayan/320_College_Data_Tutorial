@@ -109,18 +109,6 @@ UGDS_NHPI	Total share of enrollment of undergraduate degree-seeking students who
 UGDS_2MOR	Total share of enrollment of undergraduate degree-seeking students who are two or more races
 UGDS_NRA	Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens
 UGDS_UNKN	Total share of enrollment of undergraduate degree-seeking students whose race is unknown
-UGDS_WHITENH	Total share of enrollment of undergraduate degree-seeking students who are white non-Hispanic
-UGDS_BLACKNH	Total share of enrollment of undergraduate degree-seeking students who are black non-Hispanic
-UGDS_API	Total share of enrollment of undergraduate degree-seeking students who are Asian/Pacific Islander
-UGDS_AIANOLD	Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native
-UGDS_HISPOLD	Total share of enrollment of undergraduate degree-seeking students who are Hispanic
-UG_NRA	Total share of enrollment of undergraduate students who are non-resident aliens
-UG_UNKN	Total share of enrollment of undergraduate students whose race is unknown
-UG_WHITENH	Total share of enrollment of undergraduate students who are white non-Hispanic
-UG_BLACKNH	Total share of enrollment of undergraduate students who are black non-Hispanic
-UG_API	Total share of enrollment of undergraduate students who are Asian/Pacific Islander
-UG_AIANOLD	Total share of enrollment of undergraduate students who are American Indian/Alaska Native
-UG_HISPOLD	Total share of enrollment of undergraduate students who are Hispanic
 NUM4_PUB	Number of Title IV students (public institutions)
 NUM4_PRIV	Number of Title IV students (private for-profit and nonprofit institutions)
 COSTT4_A	Average cost of attendance (academic year institutions)
