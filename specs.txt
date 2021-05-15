@@ -1,0 +1,135 @@
+Questions:
+    Which states have the highest in-state tuitions?
+        Do these correllate to the highest revenue gained from tuition fees?
+            if not-- maybe do principal component analysis to see what the high tuitions correspond most to?
+        How do the racial demographics of colleges in these states look?
+        Does the cost of tuition relate to the percentage of stem vs humanities degrees awarded?
+
+
+Columns we want (VARIABLE NAME | Name of Data Element):
+
+UNITID	Unit ID for institution
+OPEID	8-digit OPE ID for institution
+OPEID6	6-digit OPE ID for institution
+INSTNM	Institution name
+CITY	City
+STABBR	State postcode
+ZIP	ZIP code
+ACCREDAGENCY	Accreditor for institution
+INSTURL	URL for institution's homepage
+NPCURL	URL for institution's net price calculator
+SCH_DEG	Predominant degree awarded (recoded 0s and 4s)
+HCM2	Schools that are on Heightened Cash Monitoring 2 by the Department of Education
+ST_FIPS	FIPS code for state
+REGION	Region (IPEDS)
+LOCALE	Locale of institution
+LOCALE2	Degree of urbanization of institution
+LATITUDE	Latitude
+LONGITUDE	Longitude
+HBCU	Flag for Historically Black College and University
+PBI	Flag for predominantly black institution
+ANNHI	Flag for Alaska Native Native Hawaiian serving institution
+TRIBAL	Flag for tribal college and university
+AANAPII	Flag for Asian American Native American Pacific Islander-serving institution
+HSI	Flag for Hispanic-serving institution
+NANTI	Flag for Native American non-tribal institution
+MENONLY	Flag for men-only college
+WOMENONLY	Flag for women-only college
+RELAFFIL	Religous affiliation of the institution
+ADM_RATE	Admission rate
+ADM_RATE_ALL	Admission rate for all campuses rolled up to the 6-digit OPE ID
+SATVR25	25th percentile of SAT scores at the institution (critical reading)
+SATVR75	75th percentile of SAT scores at the institution (critical reading)
+SATMT25	25th percentile of SAT scores at the institution (math)
+SATMT75	75th percentile of SAT scores at the institution (math)
+SATWR25	25th percentile of SAT scores at the institution (writing)
+SATWR75	75th percentile of SAT scores at the institution (writing)
+SATVRMID	Midpoint of SAT scores at the institution (critical reading)
+SATMTMID	Midpoint of SAT scores at the institution (math)
+SATWRMID	Midpoint of SAT scores at the institution (writing)
+ACTCM25	25th percentile of the ACT cumulative score
+ACTCM75	75th percentile of the ACT cumulative score
+ACTEN25	25th percentile of the ACT English score
+ACTEN75	75th percentile of the ACT English score
+ACTMT25	25th percentile of the ACT math score
+ACTMT75	75th percentile of the ACT math score
+ACTWR25	25th percentile of the ACT writing score
+ACTWR75	75th percentile of the ACT writing score
+ACTCMMID	Midpoint of the ACT cumulative score
+ACTENMID	Midpoint of the ACT English score
+ACTMTMID	Midpoint of the ACT math score
+ACTWRMID	Midpoint of the ACT writing score
+SAT_AVG	Average SAT equivalent score of students admitted
+SAT_AVG_ALL	Average SAT equivalent score of students admitted for all campuses rolled up to the 6-digit OPE ID
+PCIP01	Percentage of degrees awarded in Agriculture, Agriculture Operations, And Related Sciences.
+PCIP03	Percentage of degrees awarded in Natural Resources And Conservation.
+PCIP04	Percentage of degrees awarded in Architecture And Related Services.
+PCIP05	Percentage of degrees awarded in Area, Ethnic, Cultural, Gender, And Group Studies.
+PCIP09	Percentage of degrees awarded in Communication, Journalism, And Related Programs.
+PCIP10	Percentage of degrees awarded in Communications Technologies/Technicians And Support Services.
+PCIP11	Percentage of degrees awarded in Computer And Information Sciences And Support Services.
+PCIP12	Percentage of degrees awarded in Personal And Culinary Services.
+PCIP13	Percentage of degrees awarded in Education.
+PCIP14	Percentage of degrees awarded in Engineering.
+PCIP15	Percentage of degrees awarded in Engineering Technologies And Engineering-Related Fields.
+PCIP16	Percentage of degrees awarded in Foreign Languages, Literatures, And Linguistics.
+PCIP19	Percentage of degrees awarded in Family And Consumer Sciences/Human Sciences.
+PCIP22	Percentage of degrees awarded in Legal Professions And Studies.
+PCIP23	Percentage of degrees awarded in English Language And Literature/Letters.
+PCIP24	Percentage of degrees awarded in Liberal Arts And Sciences, General Studies And Humanities.
+PCIP25	Percentage of degrees awarded in Library Science.
+PCIP26	Percentage of degrees awarded in Biological And Biomedical Sciences.
+PCIP27	Percentage of degrees awarded in Mathematics And Statistics.
+PCIP29	Percentage of degrees awarded in Military Technologies And Applied Sciences.
+PCIP30	Percentage of degrees awarded in Multi/Interdisciplinary Studies.
+PCIP31	Percentage of degrees awarded in Parks, Recreation, Leisure, And Fitness Studies.
+PCIP38	Percentage of degrees awarded in Philosophy And Religious Studies.
+PCIP39	Percentage of degrees awarded in Theology And Religious Vocations.
+PCIP40	Percentage of degrees awarded in Physical Sciences.
+PCIP41	Percentage of degrees awarded in Science Technologies/Technicians.
+PCIP42	Percentage of degrees awarded in Psychology.
+PCIP43	Percentage of degrees awarded in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.
+PCIP44	Percentage of degrees awarded in Public Administration And Social Service Professions.
+PCIP45	Percentage of degrees awarded in Social Sciences.
+PCIP46	Percentage of degrees awarded in Construction Trades.
+PCIP47	Percentage of degrees awarded in Mechanic And Repair Technologies/Technicians.
+PCIP48	Percentage of degrees awarded in Precision Production.
+PCIP49	Percentage of degrees awarded in Transportation And Materials Moving.
+PCIP50	Percentage of degrees awarded in Visual And Performing Arts.
+PCIP51	Percentage of degrees awarded in Health Professions And Related Programs.
+PCIP52	Percentage of degrees awarded in Business, Management, Marketing, And Related Support Services.
+PCIP54	Percentage of degrees awarded in History.
+UGDS	Enrollment of undergraduate certificate/degree-seeking students
+UGDS_WHITE	Total share of enrollment of undergraduate degree-seeking students who are white
+UGDS_BLACK	Total share of enrollment of undergraduate degree-seeking students who are black
+UGDS_HISP	Total share of enrollment of undergraduate degree-seeking students who are Hispanic
+UGDS_ASIAN	Total share of enrollment of undergraduate degree-seeking students who are Asian
+UGDS_AIAN	Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native
+UGDS_NHPI	Total share of enrollment of undergraduate degree-seeking students who are Native Hawaiian/Pacific Islander
+UGDS_2MOR	Total share of enrollment of undergraduate degree-seeking students who are two or more races
+UGDS_NRA	Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens
+UGDS_UNKN	Total share of enrollment of undergraduate degree-seeking students whose race is unknown
+UGDS_WHITENH	Total share of enrollment of undergraduate degree-seeking students who are white non-Hispanic
+UGDS_BLACKNH	Total share of enrollment of undergraduate degree-seeking students who are black non-Hispanic
+UGDS_API	Total share of enrollment of undergraduate degree-seeking students who are Asian/Pacific Islander
+UGDS_AIANOLD	Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native
+UGDS_HISPOLD	Total share of enrollment of undergraduate degree-seeking students who are Hispanic
+UG_NRA	Total share of enrollment of undergraduate students who are non-resident aliens
+UG_UNKN	Total share of enrollment of undergraduate students whose race is unknown
+UG_WHITENH	Total share of enrollment of undergraduate students who are white non-Hispanic
+UG_BLACKNH	Total share of enrollment of undergraduate students who are black non-Hispanic
+UG_API	Total share of enrollment of undergraduate students who are Asian/Pacific Islander
+UG_AIANOLD	Total share of enrollment of undergraduate students who are American Indian/Alaska Native
+UG_HISPOLD	Total share of enrollment of undergraduate students who are Hispanic
+NUM4_PUB	Number of Title IV students (public institutions)
+NUM4_PRIV	Number of Title IV students (private for-profit and nonprofit institutions)
+COSTT4_A	Average cost of attendance (academic year institutions)
+COSTT4_P	Average cost of attendance (program-year institutions)
+TUITIONFEE_IN	In-state tuition and fees
+TUITIONFEE_OUT	Out-of-state tuition and fees
+TUITIONFEE_PROG	Tuition and fees for program-year institutions
+TUITFTE	Net tuition revenue per full-time equivalent student
+INEXPFTE	Instructional expenditures per full-time equivalent student
+AVGFACSAL	Average faculty salary
+PFTFAC	Proportion of faculty that is full-time
+FEDSCHCD	Federal School Code
